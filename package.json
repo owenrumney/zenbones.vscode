@@ -1,0 +1,25 @@
+{
+    "name": "zenbones-owen",
+    "displayName": "Zenbones Owen",
+    "description": "A collection of colorschemes designed to highlight code using contrasts and font variations",
+    "repository": {
+        "url": "https://github.com/owenrumney/zenbones.nvim"
+    },
+    "publisher": "owenrumney",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zenbones Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/zenbones.json"
+            }
+        ]
+    }
+}
